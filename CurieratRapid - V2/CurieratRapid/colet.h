@@ -5,8 +5,6 @@ using namespace std;
 #ifndef COLET_H
 #define COLET_H
 
-//FA CATE O CLASA PT DEADLINE,INTERVAL,CAT_MAI_REPEDE CARE SA MOSTENEASCA COLET , AICI O SA FOLOSESTI VIRTUAL
-
 
 class colet {
 protected:
@@ -26,7 +24,7 @@ protected:
 
 public:
 	
-	friend class dispecerat; //clasa dispecerat ii va putea accesa variabilele private
+	friend class dispecerat; 
 	friend class vehicul;
 
 	//constructori
