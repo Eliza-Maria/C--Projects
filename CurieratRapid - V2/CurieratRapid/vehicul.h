@@ -4,8 +4,6 @@ using namespace std;
 #ifndef VEHICUL_H
 #define VEHICUL_H
 
-// FA FUNCTII VIRTUALE!!!!
-
 enum tip { linie_dreapta, manhattan };
 enum strategie_sofer { urgent, apropiat, first_come_first_served };
 
@@ -28,7 +26,7 @@ protected:
 public:
 
 
-	friend class dispecerat; //clasa dispecerat ii va putea accesa variabilele private
+	friend class dispecerat; 
 	
 	//constructori
 	vehicul() {
