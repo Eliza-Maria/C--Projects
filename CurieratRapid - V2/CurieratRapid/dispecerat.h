@@ -73,8 +73,6 @@ public:
 	void distribuie_comenzi_aproape();
 	void distribuie_comenzi_liber();
 
-	//o functie pe care am facut-o pana mi-am dat seama de ce nu merge sort.
-
 	void bubblesort() {
 		int ok;
 		colet *aux;
